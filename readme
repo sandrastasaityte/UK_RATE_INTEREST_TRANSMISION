@@ -1,0 +1,27 @@
+UK_INTEREST_RATE_TRANSMISSION/
+│
+├── .venv/
+│
+├── data/
+│   ├── raw/
+│   └── processed/
+│
+├── output/
+│   ├── charts/
+│   ├── tables/
+│   └── reports/
+│
+├── src/
+│   ├── data_loader.py
+│   ├── data_cleaning.py
+│   ├── indicators.py
+│   ├── monetary_policy.py
+│   ├── econometrics.py
+│   ├── charts.py
+│   ├── tables.py
+│   └── reports.py
+│
+├── config.py
+├── main.py
+├── requirements.txt
+└── README.md
