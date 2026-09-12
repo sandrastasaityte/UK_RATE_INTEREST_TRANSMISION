@@ -25,3 +25,7 @@ UK_INTEREST_RATE_TRANSMISSION/
 ├── main.py
 ├── requirements.txt
 └── README.md
+
+''''''''
+https://www.bankofengland.co.uk/boeapps/database/FromShowColumns.asp?CategId=6&FromCategoryList=Yes&HighlightCatValueDisplay=Official+Bank+Rate&NewMeaningId=RBASER&Travel=NIxAZxI1x&utm_source=chatgpt.com
+https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?ActualResNumPerPage=&C=13T&Cats=&SearchExclude=&SearchText=official+bank+rate&SearchTextFields=TC&SearchType=&ShadowPage=1&ShowData.x=55&ShowData.y=24&Thes=&TotalNumResults=8&Travel=NIx&XNotes2=Y&utm_source=chatgpt.com
