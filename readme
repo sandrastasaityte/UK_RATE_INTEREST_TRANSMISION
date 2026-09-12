@@ -160,6 +160,56 @@ The dataset supports a clear framework for analysing the UK monetary-policy tran
 
 The most im
 
+UK MONETARY POLICY TRANSMISSION REPORT
+============================================================
+
+1. EXECUTIVE SUMMARY
+
+Latest Bank Rate: 5.25%
+CPI inflation: 3.10%
+GDP growth: -1.55%
+
+2. ECONOMIC TRANSMISSION
+
+The monetary-policy transmission mechanism links the Bank Rate to financial conditions, household and corporate spending, aggregate demand and ultimately economic activity.
+
+3. ECONOMETRIC MODEL
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             GDP_Growth   R-squared:                       0.620
+Model:                            OLS   Adj. R-squared:                  0.582
+Method:                 Least Squares   F-statistic:                     16.33
+Date:                Sat, 12 Sep 2026   Prob (F-statistic):            0.00236
+Time:                        18:53:58   Log-Likelihood:                -26.166
+No. Observations:                  12   AIC:                             56.33
+Df Residuals:                      10   BIC:                             57.30
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          4.1012      0.943      4.347      0.001       1.999       6.203
+Bank_Rate     -1.3909      0.344     -4.041      0.002      -2.158      -0.624
+==============================================================================
+Omnibus:                        0.520   Durbin-Watson:                   1.713
+Prob(Omnibus):                  0.771   Jarque-Bera (JB):                0.084
+Skew:                           0.193   Prob(JB):                        0.959
+Kurtosis:                       2.861   Cond. No.                         4.08
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+4. ECONOMIST INTERPRETATION
+
+A negative estimated coefficient on the interest rate would indicate an inverse statistical relationship between interest rates and GDP growth in the sample.
+The estimated relationship should not automatically be interpreted as a causal effect because monetary policy responds to economic conditions.
+
+5. CONCLUSION
+
+The results should be interpreted together with inflation, labour-market conditions, financial conditions and the broader macroeconomic environment.
+
 ''''''''
 https://www.bankofengland.co.uk/boeapps/database/FromShowColumns.asp?CategId=6&FromCategoryList=Yes&HighlightCatValueDisplay=Official+Bank+Rate&NewMeaningId=RBASER&Travel=NIxAZxI1x&utm_source=chatgpt.com
 https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?ActualResNumPerPage=&C=13T&Cats=&SearchExclude=&SearchText=official+bank+rate&SearchTextFields=TC&SearchType=&ShadowPage=1&ShowData.x=55&ShowData.y=24&Thes=&TotalNumResults=8&Travel=NIx&XNotes2=Y&utm_source=chatgpt.com
