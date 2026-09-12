@@ -26,6 +26,140 @@ UK_INTEREST_RATE_TRANSMISSION/
 ├── requirements.txt
 └── README.md
 
+
+''''''
+# UK Interest Rate Transmission
+
+## Summary of Findings
+
+### 1. Research Objective
+
+The project examines how changes in UK monetary policy transmit through the economy.
+
+The central research question is:
+
+> **How strongly and how quickly do changes in the Bank of England Bank Rate affect inflation, household consumption, investment, unemployment and overall economic activity?**
+
+The analysis follows the monetary-policy transmission mechanism from the policy interest rate through real economic activity and prices.
+
+---
+
+## 2. Data and Methodology
+
+The analysis is based on **real official UK economic data**, rather than simulated or dummy observations.
+
+The dataset combines information from:
+
+* **Bank of England** — Official Bank Rate
+* **Office for National Statistics (ONS)** — GDP
+* **ONS** — Household consumption
+* **ONS** — Gross fixed capital formation / investment
+* **ONS** — CPI inflation
+* **ONS** — Unemployment
+
+The analysis begins in **2000**, providing a long historical sample covering several different UK economic cycles and monetary-policy regimes.
+
+The core model is based on the following transmission channels:
+
+**Bank Rate → Financial conditions → Consumption → Investment → GDP → Inflation**
+
+The unemployment channel is also examined as an indicator of broader labour-market effects.
+
+---
+
+## 3. Main Data Findings
+
+### Monetary policy
+
+The Bank of England Bank Rate provides the central monetary-policy variable in the model.
+
+The historical data cover periods of:
+
+* relatively high interest rates in the early part of the sample;
+* substantial monetary easing following the Global Financial Crisis;
+* the prolonged low-interest-rate period following 2008;
+* the exceptionally low-rate period during the COVID-19 shock;
+* the rapid monetary tightening cycle beginning in 2021;
+* the subsequent period of restrictive monetary policy.
+
+This makes the dataset particularly useful for analysing how the UK economy responds to both monetary easing and monetary tightening.
+
+---
+
+### Economic activity
+
+Real GDP provides the main measure of UK economic activity.
+
+The long sample captures several major economic episodes, including:
+
+* the 2008–09 financial crisis;
+* the post-crisis recovery;
+* the COVID-19 economic shock;
+* the strong reopening/recovery period;
+* the subsequent period of weaker economic growth.
+
+This allows the model to investigate whether monetary-policy changes are associated with systematic changes in economic activity.
+
+---
+
+### Household consumption
+
+Household consumption is included as an important transmission channel.
+
+Higher interest rates can affect consumption through:
+
+* higher borrowing costs;
+* mortgage payments;
+* reduced disposable income;
+* weaker consumer credit demand;
+* increased incentives to save.
+
+Therefore, the model tests whether monetary tightening is followed by weaker household consumption.
+
+---
+
+### Investment
+
+Investment is one of the potentially strongest interest-rate-sensitive components of aggregate demand.
+
+Higher interest rates increase the cost of financing investment projects and can reduce the expected profitability of new investment.
+
+The model therefore examines whether changes in the Bank Rate are followed by changes in UK investment with a time lag.
+
+This is particularly important because monetary policy may affect investment before its effects become visible in aggregate GDP.
+
+---
+
+### Inflation
+
+CPI inflation represents the price channel of the transmission mechanism.
+
+The theoretical relationship is not expected to be instantaneous.
+
+A tightening of monetary policy can initially weaken demand, followed by reductions in inflationary pressure after a lag.
+
+Therefore, the project should focus on **dynamic and lagged relationships**, rather than simply comparing the Bank Rate and inflation in the same quarter.
+
+---
+
+### Unemployment
+
+The unemployment rate provides an additional indicator of the real-economy transmission mechanism.
+
+If tighter monetary policy reduces aggregate demand, the effects may eventually appear through:
+
+**Higher interest rates → weaker demand → weaker output → weaker labour demand → higher unemployment**
+
+However, labour-market effects are normally expected to occur with a significant lag.
+
+---
+
+## 4. Key Economic Interpretation
+
+The dataset supports a clear framework for analysing the UK monetary-policy transmission mechanism.
+
+The most im
+
 ''''''''
 https://www.bankofengland.co.uk/boeapps/database/FromShowColumns.asp?CategId=6&FromCategoryList=Yes&HighlightCatValueDisplay=Official+Bank+Rate&NewMeaningId=RBASER&Travel=NIxAZxI1x&utm_source=chatgpt.com
 https://www.bankofengland.co.uk/boeapps/database/fromshowcolumns.asp?ActualResNumPerPage=&C=13T&Cats=&SearchExclude=&SearchText=official+bank+rate&SearchTextFields=TC&SearchType=&ShadowPage=1&ShowData.x=55&ShowData.y=24&Thes=&TotalNumResults=8&Travel=NIx&XNotes2=Y&utm_source=chatgpt.com
